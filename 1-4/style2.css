@@ -1,0 +1,123 @@
+
+.clearfix::after { 
+    content: ''; 
+    display: block; 
+    clear: both;
+}
+
+
+.header {
+    width: 400px;  
+    height: 100px; 
+    background-color: #141f40;
+}
+
+.main {
+    width: 400px;  
+}
+
+.left { 
+    width: 150px; 
+    height: 250px; 
+    background-color: #80bfa8;
+    float: left;
+}
+
+.right_a{
+    width: 150px;  
+    float: left   
+}
+
+.right_a1 { 
+    width: 150px; 
+    height: 50px; 
+    background-color: #dbd400;
+    float: left
+}
+
+.right_a2 { 
+    width: 150px; 
+    height: 100px; 
+    background-color: #0093b7;
+    float: left;
+}
+
+.right_b { 
+    width: 100px; 
+    height: 150px; 
+    background-color: #ff9e6b;
+    float: left;
+}
+
+.right_c { 
+    width: 250px; 
+    height: 100px; 
+    background-color: #8c2727;
+    float: left
+}
+
+.footer { 
+    width: 400px; 
+    height: 100px; 
+    background-color: #d98d30;
+}
+
+
+
+/*ウィンドウ幅が最大767pxまでの場合に適用(タブレット用)*/
+@media screen and (max-width: 767px) {
+
+    .header {
+        width: 300px;
+    }
+
+    .left {
+        width: 100px;
+    }
+
+    .right_a {
+        width: 125px;
+    }
+
+    .right_b {
+        width: 75px;
+    }
+
+    .right_c {
+        width: 200px;
+    }
+    .footer {
+        width: 300px;
+    }
+}
+
+
+/*ウィンドウ幅が最大479pxまでの場合に適用(スマホ用)*/
+@media screen and (max-width: 479px) {
+
+     .header {
+        width: 150px; 
+    }
+
+    .left{
+        width: 150px;     
+    }
+
+    .main {
+        width: 150px;
+        float: none; /* 要素の浮動化の解除 */  
+    }
+
+    .right_b {
+        width: 150px;   
+    }
+
+    .right_c {
+        width: 150px;   
+    }
+
+    .footer {
+        width: 150px;   
+    } 
+
+}
