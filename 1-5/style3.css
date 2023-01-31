@@ -1,0 +1,122 @@
+
+.clearfix::after { 
+    content: ''; 
+    display: block; 
+    clear: both;
+}
+
+body {
+    min-height: 100%; 
+    height: 100%;
+}
+
+.wrapper {
+    width: 400px; 
+}
+
+.header {
+    width: 400px;  
+    height: 100px; 
+    background-color: #141f40;
+}
+
+.header_box { 
+    width: 160px; 
+    height: 60px;
+    margin-top: 20px; 
+    margin-left: 220px;
+    background-color: #ffffff;
+    float: left;
+}
+
+.h_box{
+    width: 40px; 
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #a9004b;
+    float: left;
+}
+
+.left { 
+    width: 150px; 
+    height: 250px; 
+    background-color: #80bfa8;
+    float: left;
+}
+
+.right { 
+    width: 250px; 
+    height: 250px; 
+    background-color: #8c2727;
+    float: right;
+}
+
+.r_box:first-child {
+    width: 150px; 
+    height: 50px;
+    margin-top: 40px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.r_box{
+    width: 140px; 
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 40px;
+    background-color: #ff863f;
+    border: 5px solid #ffffff;
+}
+
+.footer { 
+    width: 400px; 
+    height: 100px; 
+    background-color: #d98d30;
+    float: left;
+}
+
+
+
+
+/*ウィンドウ幅が最大479pxまでの場合に適用(スマホ用)*/
+@media screen and (max-width: 479px) {
+
+    .wrapper {
+        width: 200px;
+    }
+
+    .header {
+        width: 200px;
+        height: 200px;
+        margin-top: 0px;
+    }
+
+    .header_box {
+        width: 60px;
+        height: 160px; 
+        margin-top: 10px;
+        margin-left: 70px;
+    }
+
+    .left {
+        width: 200px;
+        height: 100px;
+    }
+
+    .right {
+        width: 200px;
+    } 
+
+    .r_box:first-child {
+        margin-top: 20px;
+    }
+    
+    .r_box{
+        margin-left: 30px;
+    }
+
+    .footer {
+        width: 200px;
+    }
+}
