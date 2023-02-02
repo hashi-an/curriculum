@@ -1,0 +1,131 @@
+
+.clearfix::after { 
+    content: ''; 
+    display: element; 
+    clear: both;
+}
+
+
+/* 要素の色 */
+.bg-green{
+    background-color: #80bfa8;
+}
+
+.bg-blue{
+    background-color: #0093b7;
+}
+
+.bg-yerrow{
+    background-color: #dbd400;
+}
+
+.bg-pink{
+    background-color: #ff9e6b;
+}
+
+.bg-brown{
+    background-color: #8c2727;
+}
+
+/* 上下ブロック共通 */
+body {
+    min-height: 100%; 
+    height: 100%;
+}
+
+.wrapper {
+    width: 400px; 
+}
+
+.header {
+    width: 400px;  
+    height: 100px; 
+    background-color: #141f40;
+    float: left;
+}
+
+.footer { 
+    width: 400px; 
+    height: 100px; 
+    background-color: #d98d30;
+    float: left;
+}
+
+/* 上下間余白 */
+.b_blank{
+    width: 400px;
+    height: 50px;
+    background-color: #ffffff;
+    color: #ffffff;
+    float: left;
+}
+
+/* 上ブロック要素 */
+.element1_gr { 
+    width: 150px; 
+    height: 250px; 
+    float: left;
+}
+.element1_bl { 
+    width: 250px; 
+    height: 100px; 
+    float: left;
+}
+.element1_ye { 
+    width: 100px; 
+    height: 150px; 
+    float: left
+}
+.element1_pi { 
+    width: 150px; 
+    height: 50px; 
+    float: right;
+}
+
+.element1_br { 
+    width: 150px; 
+    height: 100px; 
+    float: left
+}
+
+
+/* 下ブロック要素 */
+.lower{
+   margin-top: 100px; 
+}
+
+.m_left{
+    width: 250px;
+    float: left;
+}
+
+.element2_ye { 
+    width: 100px; 
+    height: 150px; 
+    float: left;
+}
+
+.element2_br { 
+    width: 150px; 
+    height: 50px; 
+    float: left;
+}
+
+.element2_pi { 
+    width: 150px; 
+    height: 100px; 
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.element2_gr { 
+    width: 150px; 
+    height: 250px; 
+    float: left;
+}
+
+.element2_bl { 
+    width: 250px; 
+    height: 100px; 
+    float: left;
+}
